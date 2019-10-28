@@ -1,0 +1,132 @@
+            /* .baner{
+                display: flex;
+                justify-content: center;
+            }
+
+            .baner1{
+                display: flex;
+                justify-content:start;
+            }
+            .baner2{
+                display: flex;
+                justify-content: end;
+            }
+         .baner3{
+            display: flex;
+            justify-content: end; */
+            }
+            header {
+                /* display: flex;
+                justify-content: space-between; */
+                width: 1000px;
+                margin: 0 auto;
+            }
+            
+            .caption {
+                display: flex;
+                background-image: url(asserts/img/header.png);
+                height: 500px;
+                width: auto;
+                
+            }
+            
+            .wrapper {
+                width: 1000px;
+                margin: 0 auto;
+                
+            }
+            
+            .name {
+                margin: auto;
+                font-size: 62px;
+                color: rgb(255, 255, 255);
+                /* overflow-wrap:break-word; */
+                text-transform: uppercase;
+            }
+            
+            li {
+                display: inline;
+                font-size: 16px;
+                margin: -40px;
+                /* background: #dddddd; */
+                /* padding: 2px 20px; */
+                /* border-bottom: solid 2px transparent; */
+                /* text-decoration: none; Почему не убирает подчеркивание? */
+            }
+            
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #333;
+            
+                
+            }
+            a:hover{
+                background-color:grey;
+
+            }
+            p{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                margin: 20px 30px;
+                font-size: 16px;
+                color: #333;
+
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+            }
+            
+            .textall {
+                display: flex;
+                justify-content: space-between;
+                /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; */
+            }
+            
+            .text1 {
+                font-size: 36px;
+                color: #6b6b6b;
+            }
+            
+            .text2 {
+                /* font-size: 16px;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     height: 90px;
+     width: 490px;
+     align-self: flex-end; */
+            }
+            
+            .img1 {
+                /* background-image: url(http://cs01.services.mya5.ru/DgABAIQAzQHgAczm_8P7Dw/vIBQDgsDhO4olHosWxn8mQ/sv/image/40/b8/0c/470908/12/1.jpg?1489672717);
+    width: 480px;
+    height: 230px;
+    position: absolute; 
+    top: 800px;
+    bottom: 0px; lknn
+    right: 0px; 
+    left: 450px;
+    line-height: 1px; */
+            }
+            
+            .img2 {
+                /* background-image: url(asserts/img/img2.jpg);
+    /* width: 1000px;
+    height: 390px;
+    position: absolute; 
+    top: 1200px;
+    bottom: 0px; 
+    right: 0px; 
+    left: 450px;
+    line-height: 1px; */
+            }
+            
+            footer {
+                background-color: gray;
+                color: honeydew;
+                height: 50px;
+            }
